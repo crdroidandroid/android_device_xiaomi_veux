@@ -1,7 +1,7 @@
 [
   {
     "repository": "crdroidandroid/android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
+    "target_path": "hardware/xiaomi"
   },
   {
     "repository": "crdroidandroid/android_kernel_oneplus_sm8350",
@@ -9,7 +9,11 @@
   },
   {
     "repository": "crdroidandroid/android_device_xiaomi_veux-kernel",
-    "target_path": "device/xiaomi/veux-kernel",
+    "target_path": "device/xiaomi/veux-kernel"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_veux-gcam",
+    "target_path": "vendor/xiaomi/veux-gcam"
   },
   {
     "repository": "crdroidandroid/proprietary_vendor_xiaomi_veux",
