@@ -16,7 +16,8 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_USES_BLUR := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_64_BIT_APPS := true
 
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
@@ -29,5 +30,4 @@ PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X4 Pro 5G
-
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
